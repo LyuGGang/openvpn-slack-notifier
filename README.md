@@ -19,7 +19,7 @@ Installation
 
 #### OpenVPN Configuration
 
-1. Clone or Download `post_auth_slack_notifier.py` file on this repository to your OpenVPN server.
+1. Clone or Download `post_auth_slack_notifier.py` file from this repository to your OpenVPN server.
 2. Open the `post_auth_slack_notifier.py` with editor and amend `WEBHOOK_URL` variable with value which you copied already like below.
    ```python
    # MODIFY THIS!!!!!!!!!!!
@@ -39,3 +39,7 @@ Installation
    # ./sacli -k auth.module.post_auth_script ConfigDel
    # ./sacli start
    ```
+
+License
+---
+Released under [WTFPL](http://www.wtfpl.net/about/) without warranty of any kind.
